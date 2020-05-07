@@ -1195,14 +1195,23 @@
         {
           "type": [
             null,
+            "stellar1.TransactionID"
+          ],
+          "name": "txID",
+          "mpackkey": "t",
+          "jsonkey": "t"
+        },
+        {
+          "type": [
+            null,
             {
               "type": "array",
               "items": "stellar1.TransactionID"
             }
           ],
           "name": "txIDs",
-          "mpackkey": "t",
-          "jsonkey": "t"
+          "mpackkey": "ts",
+          "jsonkey": "ts"
         }
       ]
     },
@@ -1310,6 +1319,27 @@
           "name": "txIDs",
           "mpackkey": "t",
           "jsonkey": "t"
+        },
+        {
+          "type": [
+            null,
+            "stellar1.TransactionID"
+          ],
+          "name": "txID",
+          "mpackkey": "t",
+          "jsonkey": "t"
+        },
+        {
+          "type": [
+            null,
+            {
+              "type": "array",
+              "items": "stellar1.TransactionID"
+            }
+          ],
+          "name": "txIDs",
+          "mpackkey": "ts",
+          "jsonkey": "ts"
         }
       ]
     },
